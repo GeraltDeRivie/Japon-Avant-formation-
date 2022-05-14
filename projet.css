@@ -1,0 +1,99 @@
+
+body
+{
+	font-size: 1.3em;
+	color: black;
+	background-color: lightpink;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h2
+{
+	text-transform: capitalize;
+	font-size: 180%;
+}
+
+
+/*header*/
+
+header
+{
+	background: url(images/cerisier.gif); 
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	background-position: center;
+}
+
+
+h1
+{
+	font-size: 50px;
+	color: white;
+	text-shadow: 4px 4px 4px red;
+	font-weight: bold;
+	font-family: Comic sans MS, Verdana, Impact;
+}
+
+
+/* nav */
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+
+#titre_nav
+{
+	font-size: 1.4em;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+
+/* section */
+
+section
+{
+	list-style-image: url(images/drapeau_puce.jpg);
+}
+
+#pourquoi
+{
+	font-size: 1.3em;
+}
+
+
+/* footer */
+
+footer
+{
+	border: solid 2px;
+	border-radius:10px / 15px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+footer ul
+{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	margin: auto;
+}
+
+#coordo
+{
+	text-decoration: underline;
+	padding-top: 20px;
+	padding-left: 450px;
+	position: absolute;
+	color: grey;
+	font-size: 1.5em;
+}
